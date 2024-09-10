@@ -5,7 +5,7 @@ import yfinance as yf
 
 from datetime import datetime, time, timedelta
 
-
+from myserrver import server_on
 # ตั้งค่า token ของบอทที่นี่
 
 CHANNEL_ID = '1281951649845477418'  # ID ของ channel ที่จะให้บอทส่งข้อความ
