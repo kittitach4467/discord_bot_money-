@@ -66,4 +66,7 @@ async def on_ready():
     print(f'บอท {client.user} เข้าสู่ระบบแล้ว!')
 
 client.loop.create_task(send_exchange_rate())
+
+server_on
+
 client.run(os.getenv('TOKEN'))
